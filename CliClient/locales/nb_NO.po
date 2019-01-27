@@ -13,8 +13,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 msgid "To delete a tag, untag the associated notes."
 msgstr ""
@@ -186,7 +188,7 @@ msgid "Note has been saved."
 msgstr "Notat har blitt lagret."
 
 msgid "Exits the application."
-msgstr "Forlat programmet."
+msgstr "Avslutter programmet."
 
 msgid ""
 "Exports Joplin data to the given path. By default, it will export the "
@@ -343,7 +345,7 @@ msgid "Please select a notebook first."
 msgstr "Vennligst velg en notatbok først."
 
 msgid "Creates a new notebook."
-msgstr "Opprettter en ny notatbok."
+msgstr "Oppretter en ny notatbok."
 
 msgid "Creates a new note."
 msgstr "Oppretter et nytt notat."
@@ -381,7 +383,7 @@ msgstr "Sletter notatene uten bekreftelse."
 
 #, javascript-format
 msgid "%d notes match this pattern. Delete them?"
-msgstr "%d notater passer dette mønsteret. Slette dem?"
+msgstr "%d notater passer dette mønsteret. Vil du slette de?"
 
 msgid "Delete note?"
 msgstr "Slett notat?"
@@ -412,7 +414,7 @@ msgstr "Sync å forsynt mål (uteblivelsene å sync. target config-verdi)"
 
 msgid ""
 "Authentication was not completed (did not receive an authentication token)."
-msgstr "Godkjenning ble ikke fullført (mottok ikke et godkjennings tegn)."
+msgstr "Godkjenning ble ikke fullført (mottok ikke et autoriseringsbevis)."
 
 msgid ""
 "To allow Joplin to synchronise with Dropbox, please follow the steps below:"
@@ -599,7 +601,7 @@ msgid "Import"
 msgstr "Importer"
 
 msgid "Export"
-msgstr "Eksport"
+msgstr "Eksporter"
 
 msgid "Print"
 msgstr "Skriv ut"
@@ -641,7 +643,6 @@ msgstr "Rediger i ekstern editor"
 msgid "Search in all the notes"
 msgstr "Søk i alle notater"
 
-#, fuzzy
 msgid "Search in current note"
 msgstr "Søk i nåværende notat"
 
@@ -913,7 +914,7 @@ msgid "Notebook title:"
 msgstr "Tittel på notatbok:"
 
 msgid "Add or remove tags:"
-msgstr "Legge til eller fjern merkelapp:"
+msgstr "Legge til eller fjern merkelapper:"
 
 msgid "Separate each tag by a comma."
 msgstr "Separer hver merkelapp med komma."
@@ -1021,7 +1022,7 @@ msgstr ""
 "Dette notatet har ikke noe innhold. Klikk på \"%s\" for å redigere notatet."
 
 msgid "Only one note can be printed or exported to PDF at a time."
-msgstr ""
+msgstr "Kun ett notat kan bli printet eller eksportert som PDF om gangen."
 
 msgid "strong text"
 msgstr "fet tekst"
@@ -1224,7 +1225,7 @@ msgstr "Slettet eksterne elementer: %d."
 
 #, javascript-format
 msgid "Fetched items: %d/%d."
-msgstr "Hentede elementer: %d/%d."
+msgstr "Hentet elementer: %d/%d."
 
 msgid "Cancelling..."
 msgstr "Avbryter…"
@@ -1270,7 +1271,7 @@ msgid "updated date"
 msgstr "sist oppdatert"
 
 msgid "created date"
-msgstr "opprettet"
+msgstr "dato opprettet"
 
 msgid "This note does not have geolocation information."
 msgstr "Dette notatet har ingen stedsinformasjon."
@@ -1349,7 +1350,6 @@ msgstr "Start applikasjonen minimert som systemmenyikon"
 msgid "Global zoom percentage"
 msgstr "Global forstørrelse"
 
-#, fuzzy
 msgid "Editor font size"
 msgstr "Editor skriftstørrelse"
 
@@ -1413,7 +1413,7 @@ msgstr ""
 "som er navngitt som `sync.NUM.NAME` (dokumentert nedenfor)."
 
 msgid "Directory to synchronise with (absolute path)"
-msgstr "Mappe å synkronisere med (absolutt sti)"
+msgstr "Katalog å synkronisere med (absolutt sti)"
 
 msgid ""
 "The path to synchronise with when file system synchronisation is enabled. "
@@ -1676,7 +1676,7 @@ msgstr "- Sted: for å legge ved stedsinformation til notatet."
 msgid "Joplin website"
 msgstr "Joplins nettsted"
 
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "Joplin v%s"
 msgstr "Joplin v%s"
 
@@ -1684,7 +1684,7 @@ msgstr "Joplin v%s"
 msgid "Database v%s"
 msgstr "Database v%s"
 
-#, fuzzy, javascript-format
+#, javascript-format
 msgid "FTS enabled: %d"
 msgstr "Fulltekstsøk aktivert: %d"
 
@@ -1745,9 +1745,8 @@ msgstr "Joplins mobilapp støtter for tiden ikke denne type linker: %s"
 msgid "Unsupported image type: %s"
 msgstr "Bildetypen er ikke støttet: %s"
 
-#, fuzzy
 msgid "Take photo"
-msgstr "Ta et bilde"
+msgstr "Ta bilde"
 
 msgid "Attach photo"
 msgstr "Legg ved et bilde"
@@ -1793,7 +1792,7 @@ msgstr ""
 "sidemenyen for tilgang til dine eksisterende notatbøker."
 
 msgid "You currently have no notebook. Create one by clicking on (+) button."
-msgstr "Du har enda ingen notatbok. Lag en ved å klikke på (+)-knappen."
+msgstr "Du har enda ingen notatbok. Opprett en ved å klikke på (+)-knappen."
 
 msgid "Welcome"
 msgstr "Velkommen"
